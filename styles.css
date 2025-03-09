@@ -83,5 +83,16 @@ body{
  #nav-bar li:hover,
  #nav-bar li a.active{
     color: #088178;
-  }
+}
+
+
+#nav-bar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
   
