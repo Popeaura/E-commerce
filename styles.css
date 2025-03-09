@@ -76,10 +76,12 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: #1a1a1a;
+    transition: 0.3s ease;
 
  }
 
- 
- #nav-bar li:hover{
+ #nav-bar li a:hover,
+ #nav-bar li a:active{
     color: #088178;
+
  }
