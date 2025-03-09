@@ -65,4 +65,6 @@ body{
                                
  }
 
- #nav-bar
+ #nav-bar li{
+    text-decoration: none;
+ }
