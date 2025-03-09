@@ -68,6 +68,7 @@ body{
  #nav-bar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
  }
 
 
@@ -86,7 +87,8 @@ body{
 }
 
 
-#nav-bar li a.active::after{
+#nav-bar li a.active::after,
+#nav-bar li:hover{
     content: "";
     width: 30%;
     height: 2px;
