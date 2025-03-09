@@ -80,9 +80,16 @@ body{
 
  }
 
- #nav-bar li a:hover,
- #nav-bar li a:active{
+ #nav-bar li:hover {
     color: #088178;
-    
+  }
+  
+  #nav-bar li a:active {
+    color: #088178;
+  }
 
- }
+  #nav-bar li a.active {
+    color: #088178;
+    font-weight: bold; 
+    text-decoration: underline; 
+  }
