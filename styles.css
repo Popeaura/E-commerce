@@ -66,5 +66,6 @@ body{
  }
 
  #nav-bar li{
+    list-style: none;
     text-decoration: none;
  }
