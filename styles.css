@@ -49,3 +49,6 @@ body{
 }
 
 /* header start */
+#header{
+    display: flex;
+}
