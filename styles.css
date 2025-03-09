@@ -68,5 +68,10 @@ body{
  #nav-bar li{
     list-style: none;
     padding: 0 20px;
+ }
+
+
+ #nav-bar li a{
     text-decoration: none;
+
  }
