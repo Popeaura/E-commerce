@@ -115,4 +115,6 @@ body{
     padding-bottom: 15px;
 }
 
-#hero{
+#hero h1{
+    color: #088178;
+}
