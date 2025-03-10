@@ -99,10 +99,11 @@ body{
 }
 /* Home Page */
 #hero{
-    background-image:url("images/Oversized\ Clothes.jpeg") ;
+    background-image:url("images/Women_s_Hoodies___Zip_Up_Hoodies-removebg-preview.png") ;
     height: 90vh;
     width: 100%;
     background-size: cover;
+    background-position: ;
     background-position: top 25% right 0%;
 
 
