@@ -88,7 +88,7 @@ body{
 
 
 #nav-bar li a.active::after,
-#nav-bar li:hover{
+#nav-bar li:hover::after{
     content: "";
     width: 30%;
     height: 2px;
