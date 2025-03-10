@@ -120,5 +120,6 @@ body{
 }
 
 #hero button{
-    background-image: url(images/button.png);
+    background-image: url("images/button.png");
+    background-color: transparent;
 }
