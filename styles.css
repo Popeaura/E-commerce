@@ -134,3 +134,10 @@ body{
     font-weight: 700;
     font-size: 16px;
 }
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+
+}
