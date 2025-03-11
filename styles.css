@@ -170,3 +170,6 @@ body{
     color: #088178;
     background-color: #fddde4;
 }
+#feature .fe-box :nth-child(2){
+    background-color: #cdebbc;
+}
