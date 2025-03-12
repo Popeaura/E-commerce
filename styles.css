@@ -54,7 +54,7 @@ button .normal{
     cursor: pointer;
     border: none;
     outline: none;
-    transition:0.2s: ease;
+    transition:0.2s ease;
 }
 
 body{
