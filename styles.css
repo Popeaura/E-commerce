@@ -272,4 +272,8 @@ body{
     text-align: center;
     flex-direction: column;
     background-image: url("images/banner/b2.jpg");
+    width: 100%;
+    height:40vh;
+    block-size: cover;
+    background-position: center;
 }
