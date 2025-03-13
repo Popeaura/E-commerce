@@ -383,8 +383,8 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    background-image: url("images/banner/b17.jpg");
-    width: 580px;
+    background-image: url("images/banner/b7.jpg");
+    min-width: 30%;
     height:50vh;
     block-size: cover;
     background-position: center;
