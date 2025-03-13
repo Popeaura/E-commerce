@@ -342,6 +342,12 @@ body{
     padding: 30px;
 }
 
+#sm-banner .banner-box2{
+    background-image: url("images/banner/b10.jpg");
+
+}
+
+
 
 #sm-banner h4{
     color: #fff;
