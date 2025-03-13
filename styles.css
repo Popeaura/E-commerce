@@ -379,7 +379,7 @@ body{
  border: 1px solid #088178;
 }
 
-#banner3{
+#banner3 .banner-box{
     display: flex;
     justify-content: center;
     align-items: flex-start;
