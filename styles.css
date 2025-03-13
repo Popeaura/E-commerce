@@ -379,6 +379,13 @@ body{
  border: 1px solid #088178;
 }
 
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 #banner3 .banner-box{
     display: flex;
     flex-direction: column;
