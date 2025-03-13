@@ -325,7 +325,7 @@ body{
 
 #sm-banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 #sm-banner .banner-box{
@@ -334,7 +334,7 @@ body{
     align-items: flex-start;
     flex-direction: column;
     background-image: url("images/banner/b17.jpg");
-    width: 580px;
+    min-width: 580px;
     height:50vh;
     block-size: cover;
     background-position: center;
