@@ -325,7 +325,7 @@ body{
 
 #sm-banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 #sm-banner .banner-box{
@@ -344,6 +344,7 @@ body{
 
 #sm-banner .banner-box2{
     background-image: url("images/banner/b10.jpg");
+    
 
 }
 
@@ -389,5 +390,7 @@ body{
     block-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
 }  
+
