@@ -482,64 +482,77 @@ body{
     display: flex;
     width: 40%;
 }
-
-footer{
+/* Footer Styling */
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 100%;
 }
 
-
-footer .col{
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+    max-width: 250px;
 }
 
-footer .logo{
-    margin-bottom: 30px;
+footer .logo {
+    margin-bottom: 20px;
+    max-width: 150px;
 }
 
-footer h4{
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+footer p, footer a {
     font-size: 14px;
-    padding-bottom:20px ;
-}
-
-footer p{
-    font-size: 13px;
-    margin:0  0 8px 0;
-}
-
-footer a{
-    font-size: 13px;
     text-decoration: none;
     color: #222;
-    margin:10px;
+    margin: 5px 0;
 }
 
-footer .follow i{
-margin-top: 20px;
+footer a:hover {
+    color: #088178;
 }
 
-footer .follow i{
+footer .follow {
+    margin-top: 10px;
+}
+
+footer .icon i {
     color: #465b52;
-    padding-right: 4px;
+    padding-right: 8px;
+    font-size: 18px;
     cursor: pointer;
-
 }
 
-footer .install .row img{
+footer .icon i:hover {
+    color: #088178;
+}
+
+footer .install .row img {
     border: 1px solid #088178;
     border-radius: 6px;
+    width: 120px;
+    margin-right: 10px;
 }
 
-footer .install img{
-    margin: 10px 0 15px 0;
-
+footer .install img {
+    margin: 10px 0;
+    max-width: 200px;
 }
 
-footer .follow i:hover,
-footer a:hover{
-    color: #088178;
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #666;
 }
