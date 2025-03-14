@@ -543,6 +543,10 @@ footer .follow  i {
     cursor: pointer;
 }
 
+.row{
+    display: flex;
+}
+
 footer .install .row img {
     border: 1px solid #088178;
     border-radius: 6px;
