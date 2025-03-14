@@ -540,6 +540,6 @@ footer .install img{
 }
 
 footer .follow i:hover,
-footer{
+footer a:hover{
     color: #088178;
 }
