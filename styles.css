@@ -515,5 +515,13 @@ footer a{
     font-size: 13px;
     text-decoration: none;
     color: #222;
-    margin:0  0 8px 0;
+    margin:10px;
 }
+
+footer .follow i{
+margin-top: 20px;
+}
+
+footer .follow i{
+    margin-top: 20px;
+    }
