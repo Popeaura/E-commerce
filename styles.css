@@ -482,3 +482,9 @@ body{
     display: flex;
     width: 40%;
 }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
