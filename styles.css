@@ -500,7 +500,13 @@ footer .col{
 footer .logo{
     margin-bottom: 30px;
 }
+
 footer h4{
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom:20px ;
+}
+
+footer p{
+    font-size: 14px;
+    padding-bottom:20px ;
 }
