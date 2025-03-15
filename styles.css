@@ -569,3 +569,13 @@ footer .copyright {
     padding-top: 10px;
     color: #666;
 }
+
+/*Media querry */
+@media (max-width:799px) {
+    #nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
