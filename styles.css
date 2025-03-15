@@ -592,6 +592,10 @@ footer .copyright {
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px; 
     }
+    #nav-bar.active{
+        right: 0px;
+
+    }
     #nav-bar  li{
         margin-bottom: 25px;
     }
