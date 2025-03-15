@@ -88,21 +88,21 @@ body{
     left: 0;
 }
 
-#nav-bar{
+#navbar{
     display: flex;
     align-items: center;
     justify-content: center;
                                
  }
 
- #nav-bar li{
+ #navbar li{
     list-style: none;
     padding: 0 20px;
     position: relative;
  }
 
 
- #nav-bar li a{
+ #navbar li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -111,14 +111,14 @@ body{
 
  }
 
- #nav-bar li:hover,
- #nav-bar li a.active{
+ #navbar li:hover,
+ #navbar li a.active{
     color: #088178;
 }
 
 
-#nav-bar li a.active::after,
-#nav-bar li:hover::after{
+#navbar li a.active::after,
+#navbar li:hover::after{
     content: "";
     width: 30%;
     height: 2px;
