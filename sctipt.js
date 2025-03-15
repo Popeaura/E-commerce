@@ -1,8 +1,8 @@
 const bar = document.getElementById('bar');
-const nav = document.getElementById('nav-bar');
+const nav = document.getElementById('navbar');
 
-if(bar){
+if(bar) {
     bar.addEventListener('click', () =>{
-        nav.classList.add('active')
+        nav.classList.add('active');
     })
 }
