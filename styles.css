@@ -128,8 +128,8 @@ body{
     left: 20px;
 }
 
-#mobile{
-    display: none;
+#mobile {
+    display: flex;
     align-items: center;
 }
 /* Home Page */
@@ -582,11 +582,7 @@ svg {
     cursor: pointer;
 }
 
-#mobile {
-    display: flex;
-    gap: 15px; /* Space between icons */
-    align-items: center;
-}
+
 
 /*Media querry */
 @media (max-width: 799px) {
