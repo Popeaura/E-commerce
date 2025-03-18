@@ -129,8 +129,8 @@ body{
 }
 
 #mobile {
-    display: flex;
-    align-items: center;
+    display: none;
+    align-items: none;
 }
 /* Home Page */
 #hero{
