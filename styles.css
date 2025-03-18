@@ -575,6 +575,13 @@ footer .copyright {
     color: #666;
 }
 
+svg {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    fill: #333; /* Adjust color */
+    cursor: pointer;
+}
+
 /*Media querry */
 @media (max-width: 799px) {
     #navbar {
