@@ -8,49 +8,48 @@
     <title>E-commerce</title>
 </head>
 <body>
-<section id="header">
-    <a href="#"><img src="images/logo.png" class="logo"></a>
-    <div>
-        <ul id="navbar">
-            <li> <a class="active" href="index.html">Home</a></li>
-            <li> <a href="shop.html">Shop</a></li>
-            <li> <a href="blog.html">Blog</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="contact.html">Contact Us</a></li>
-            <li>
-                <a href="cart.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
-                        <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
-                    </svg>
-                </a>
-                <a href="#" id="close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="18" y1="6" x2="6" y2="18"></line>
-                      <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                </a>
-                                  
-            </li>
-
-        </ul>
-    </div>
-    <div id="mobile">
-        <a href="cart.html">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
-                <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
-            </svg>
-        </a>
-
-        <svg id="bar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
-            <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
-        </svg>
+    <header id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt="Site Logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" aria-label="View Cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                            <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <button id="close" aria-label="Close Navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
     
-    </div>
+        <div id="mobile">
+            <a href="cart.html" aria-label="View Cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                    <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
+                </svg>
+            </a>
     
+            <button id="bar" aria-label="Open Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                    <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
     
-    
-</section>
-
 <section id="hero">
     <h4>Trade-in-offer</h4>
     <h2>Super Value deals</h2>
