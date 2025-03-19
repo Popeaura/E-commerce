@@ -18,27 +18,3 @@ if (close) {
     nav.classList.remove("active")
   })
 }
-
-// Add a window load event to ensure everything is properly initialized
-window.addEventListener("load", () => {
-  console.log("Window loaded - Checking elements again:", {
-    bar: document.getElementById("bar"),
-    close: document.getElementById("close"),
-    nav: document.getElementById("navbar"),
-  })
-
-  // Re-attach event listeners if needed
-  const barElement = document.getElementById("bar")
-  if (barElement && !barElement.onclick) {
-    barElement.onclick = () => {
-      nav.classList.add("active")
-    }
-    console.log("Re-attached click handler to menu bar")
-  }
-})
-
-// Add a direct click handler to the document for debugging
-document.addEventListener("click", (e) => {
-  console.log("Clicked element:", e.target)
-})
-
