@@ -1,17 +1,8 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const bar = document.getElementById("bar");
-    const closeBtn = document.getElementById("close");
-    const navbar = document.getElementById("navbar");
+const bar = document.getElementById('bar');
+const nav = document.getElementById('navbar');
 
-    if (bar) {
-        bar.addEventListener("click", () => {
-            navbar.classList.add("active");
-        });
-    }
-
-    if (closeBtn) {
-        closeBtn.addEventListener("click", () => {
-            navbar.classList.remove("active");
-        });
-    }
-});
+if (bar){
+    bar.addEventListener('click', () =>{
+        nav.classList.add('active')
+    })
+}
