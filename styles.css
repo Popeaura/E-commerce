@@ -122,33 +122,42 @@ body {
 }
 
 /* Mobile Menu Styles */
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
 /* Add these styles to make the menu bar more clickable */
 
 #mobile {
-    display: none;
-    align-items: center;
+  display: none;
+  align-items: center;
 }
 
 #mobile svg {
-    margin-left: 20px;
-    cursor: pointer;
-    z-index: 1001; /* Ensure it's above other elements */
+  margin-left: 20px;
+  cursor: pointer;
+  z-index: 1001; /* Ensure it's above other elements */
 }
 
 /* Create a larger clickable area for the hamburger icon */
 #bar {
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1001;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1001;
 }
 
 /* Make sure the SVG is visible and clickable */
 svg {
-    width: 30px;
-    height: 30px;
-    fill: #333;
-    cursor: pointer;
-    pointer-events: auto; /* Ensure clicks are registered */
+  width: 30px;
+  height: 30px;
+  fill: #333;
+  cursor: pointer;
+  pointer-events: auto; /* Ensure clicks are registered */
 }
 
 /* Home Page */
@@ -590,12 +599,20 @@ footer .copyright {
   #mobile {
     display: flex;
     align-items: center;
-    justify-content: center;
-    z-index: 1001;
   }
 
   #mobile svg {
     margin-left: 20px;
+    cursor: pointer;
+  }
+
+  #bar {
+    cursor: pointer;
+  }
+
+  /* Hide desktop shopping bag on mobile */
+  #lg-bag {
+    display: none;
   }
 
   /* Style the navbar for mobile */
@@ -633,6 +650,7 @@ footer .copyright {
     right: 30px;
     color: #222;
     font-size: 24px;
+    cursor: pointer;
   }
 
   /* Show close button when menu is active */
@@ -731,3 +749,4 @@ footer .copyright {
     text-align: start;
   }
 }
+

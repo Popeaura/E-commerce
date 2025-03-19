@@ -17,13 +17,11 @@
             <li><a href="blog.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact Us</a></li>
-            <li>
-                <a href="cart.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
-                        <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
-                    </svg>
-                </a>
-            </li>
+            <li><a href="cart.html" id="lg-bag">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                    <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
+                </svg>
+            </a></li>
             <a href="#" id="close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -36,15 +34,14 @@
         <a href="cart.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
                 <path d="M8 7V6a4 4 0 0 1 8 0v1h4a1 1 0 0 1 1 1v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1h4zm2-1v1h4V6a2 2 0 0 0-4 0zm-4 3v12h12V9H6z"/>
-        </svg>
-    </a>
-    <!-- Changed to a div with onclick for better clickability -->
-    <div id="bar" onclick="document.getElementById('navbar').classList.add('active'); document.getElementById('close').style.display = 'block';">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
-            <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
-        </svg>
+            </svg>
+        </a>
+        <div id="bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black">
+                <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+            </svg>
+        </div>
     </div>
-</div>
 </section>
 
 <section id="hero">
@@ -58,6 +55,10 @@
 <section id="feature" class="section-p1">
     <div class="fe-box">
         <img src="images/features/f1.png" alt="Free Shipping">
+        <h6>Free Shipping</h6>
+    </div>
+    
+    <div class="fe-  alt="Free Shipping">
         <h6>Free Shipping</h6>
     </div>
     
