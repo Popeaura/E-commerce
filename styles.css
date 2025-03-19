@@ -3,8 +3,8 @@
 * {
   font-family: "League Spartan", sans-serif;
   margin: 0;
-  box-sizing: border-box;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -123,64 +123,21 @@ body {
 
 /* Mobile Menu Styles */
 #mobile {
-  display: none; /* Hidden by default on desktop */
+  display: none;
   align-items: center;
-}
-
-#mobile svg {
-  margin-left: 20px;
-  cursor: pointer;
-  z-index: 1001; /* Ensure it's above other elements */
-}
-
-/* Create a larger clickable area for the hamburger icon */
-#bar {
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1001;
-  background: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-}
-
-#bar:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-}
-
-/* Make sure the SVG is visible and clickable */
-svg {
-  width: 24px;
-  height: 24px;
-  fill: #333;
-  cursor: pointer;
-  pointer-events: auto; /* Ensure clicks are registered */
 }
 
 #close {
   display: none;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  color: #222;
-  font-size: 24px;
-  cursor: pointer;
-  z-index: 1002; /* Higher than the navbar */
 }
 
-/* Add these styles to make the menu bar more clickable */
-
-/* Home Page */
+/* Hero Section */
 #hero {
-  background-image: url(images/hero4.png);
+  background-image: url("images/hero4.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0%;
+  background-position: top 25% right 0;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
@@ -205,9 +162,10 @@ svg {
   background-repeat: no-repeat;
   cursor: pointer;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
 }
 
+/* Features Section */
 #feature {
   display: flex;
   align-items: center;
@@ -219,7 +177,7 @@ svg {
   width: 180px;
   text-align: center;
   padding: 25px 15px;
-  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
@@ -611,7 +569,7 @@ footer .copyright {
 
   /* Show mobile menu icon on smaller screens */
   #mobile {
-    display: flex; /* Show on mobile */
+    display: flex;
     align-items: center;
   }
 
