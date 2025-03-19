@@ -123,7 +123,7 @@ body {
 
 /* Mobile Menu Styles */
 #mobile {
-  display: none;
+  display: none; /* Hidden by default on desktop */
   align-items: center;
 }
 
@@ -611,7 +611,7 @@ footer .copyright {
 
   /* Show mobile menu icon on smaller screens */
   #mobile {
-    display: flex;
+    display: flex; /* Show on mobile */
     align-items: center;
   }
 
@@ -622,6 +622,7 @@ footer .copyright {
 
   #bar {
     cursor: pointer;
+    display: flex; /* Ensure it's visible */
   }
 
   /* Hide desktop shopping bag on mobile */
