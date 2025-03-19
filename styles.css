@@ -127,17 +127,6 @@ body {
   align-items: center;
 }
 
-#close {
-  display: none;
-}
-
-/* Add these styles to make the menu bar more clickable */
-
-#mobile {
-  display: none;
-  align-items: center;
-}
-
 #mobile svg {
   margin-left: 20px;
   cursor: pointer;
@@ -149,16 +138,41 @@ body {
   padding: 10px;
   cursor: pointer;
   z-index: 1001;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+#bar:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
 }
 
 /* Make sure the SVG is visible and clickable */
 svg {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   fill: #333;
   cursor: pointer;
   pointer-events: auto; /* Ensure clicks are registered */
 }
+
+#close {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #222;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1002; /* Higher than the navbar */
+}
+
+/* Add these styles to make the menu bar more clickable */
 
 /* Home Page */
 #hero {
