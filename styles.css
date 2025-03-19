@@ -121,6 +121,7 @@ body {
   left: 20px;
 }
 
+/* Mobile Menu Styles */
 #mobile {
   display: none;
   align-items: center;
@@ -572,31 +573,7 @@ svg {
     padding: 20px 40px;
   }
 
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #e3e6f3;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s ease;
-    z-index: 1000;
-  }
-
-  #navbar.active {
-    right: 0;
-  }
-
-  #navbar li {
-    margin-bottom: 25px;
-  }
-
+  /* Show mobile menu icon on smaller screens */
   #mobile {
     display: flex;
     align-items: center;
@@ -606,8 +583,36 @@ svg {
     margin-left: 20px;
   }
 
+  /* Style the navbar for mobile */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px; /* Hide off-screen initially */
+    height: 100vh;
+    width: 300px;
+    background-color: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+
+  /* When active class is added, show the navbar */
+  #navbar.active {
+    right: 0;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  /* Style the close button - only visible when menu is open */
   #close {
-    display: block;
+    display: none; /* Hidden by default */
     position: absolute;
     top: 30px;
     right: 30px;
@@ -615,6 +620,12 @@ svg {
     font-size: 24px;
   }
 
+  /* Show close button when menu is active */
+  #navbar.active #close {
+    display: block;
+  }
+
+  /* Rest of your media query styles */
   #hero {
     height: 70vh;
     padding: 0 40px;
